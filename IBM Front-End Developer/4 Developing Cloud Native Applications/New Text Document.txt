@@ -1,0 +1,2 @@
+ibmcloud ce application create --name movieapp --image us.icr.io/${SN_ICR_NAMESPACE}/movieapp --registry-secret icr-secret --src https://github.com/gostjoke/qkfls-Movie-Reviews-Database.git 
+ibmcloud ce application update --name movieapp --image us.icr.io/${SN_ICR_NAMESPACE}/movieapp --registry-secret icr-secret --src https://github.com/gostjoke/qkfls-Movie-Reviews-Database.git 
